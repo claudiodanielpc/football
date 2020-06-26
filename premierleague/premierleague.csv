@@ -1,0 +1,621 @@
+position,team,matchweek
+1 ,Man City,1
+2 ,Man Utd,1
+3 ,Liverpool,1
+4 ,Brighton,1
+5 ,Burnley,1
+6 ,Spurs,1
+7 ,Arsenal,1
+8 ,AFC Bournemouth,1
+9 ,Sheffield Utd,1
+10 ,Crystal Palace,1
+11 ,Everton,1
+12 ,Leicester,1
+13 ,Wolves,1
+14 ,Newcastle,1
+15 ,Aston Villa,1
+16 ,Norwich,1
+17 ,Southampton,1
+18 ,Watford,1
+19 ,Chelsea,1
+20 ,West Ham,1
+1 ,Liverpool,2
+2 ,Arsenal,2
+3 ,Man City,2
+4 ,Man Utd,2
+5 ,Brighton,2
+6 ,Spurs,2
+7 ,AFC Bournemouth,2
+8 ,Sheffield Utd,2
+9 ,Everton,2
+10 ,Burnley,2
+11 ,Norwich,2
+12 ,Leicester,2
+13 ,Wolves,2
+14 ,Crystal Palace,2
+15 ,Chelsea,2
+16 ,West Ham,2
+17 ,Aston Villa,2
+18 ,Newcastle,2
+19 ,Southampton,2
+20 ,Watford,2
+1 ,Liverpool,3
+2 ,Man City,3
+3 ,Arsenal,3
+4 ,Leicester,3
+5 ,Man Utd,3
+6 ,Burnley,3
+7 ,Spurs,3
+8 ,Brighton,3
+9 ,Sheffield Utd,3
+10 ,Crystal Palace,3
+11 ,AFC Bournemouth,3
+12 ,Everton,3
+13 ,Chelsea,3
+14 ,West Ham,3
+15 ,Wolves,3
+16 ,Aston Villa,3
+17 ,Norwich,3
+18 ,Southampton,3
+19 ,Newcastle,3
+20 ,Watford,3
+1 ,Liverpool,4
+2 ,Man City,4
+3 ,Leicester,4
+4 ,Crystal Palace,4
+5 ,Arsenal,4
+6 ,Everton,4
+7 ,West Ham,4
+8 ,Man Utd,4
+9 ,Spurs,4
+10 ,Sheffield Utd,4
+11 ,Chelsea,4
+12 ,Burnley,4
+13 ,Southampton,4
+14 ,Newcastle,4
+15 ,AFC Bournemouth,4
+16 ,Brighton,4
+17 ,Wolves,4
+18 ,Aston Villa,4
+19 ,Norwich,4
+20 ,Watford,4
+1 ,Liverpool,5
+2 ,Man City,5
+3 ,Spurs,5
+4 ,Man Utd,5
+5 ,Leicester,5
+6 ,Chelsea,5
+7 ,Arsenal,5
+8 ,West Ham,5
+9 ,AFC Bournemouth,5
+10 ,Southampton,5
+11 ,Everton,5
+12 ,Crystal Palace,5
+13 ,Norwich,5
+14 ,Burnley,5
+15 ,Sheffield Utd,5
+16 ,Brighton,5
+17 ,Aston Villa,5
+18 ,Newcastle,5
+19 ,Wolves,5
+20 ,Watford,5
+1 ,Liverpool,6
+2 ,Man City,6
+3 ,Leicester,6
+4 ,Arsenal,6
+5 ,West Ham,6
+6 ,AFC Bournemouth,6
+7 ,Spurs,6
+8 ,Man Utd,6
+9 ,Burnley,6
+10 ,Sheffield Utd,6
+11 ,Chelsea,6
+12 ,Crystal Palace,6
+13 ,Southampton,6
+14 ,Everton,6
+15 ,Brighton,6
+16 ,Norwich,6
+17 ,Newcastle,6
+18 ,Aston Villa,6
+19 ,Wolves,6
+20 ,Watford,6
+1 ,Liverpool,7
+2 ,Man City,7
+3 ,Leicester,7
+4 ,Arsenal,7
+5 ,West Ham,7
+6 ,Spurs,7
+7 ,Chelsea,7
+8 ,AFC Bournemouth,7
+9 ,Crystal Palace,7
+10 ,Man Utd,7
+11 ,Burnley,7
+12 ,Sheffield Utd,7
+13 ,Wolves,7
+14 ,Southampton,7
+15 ,Everton,7
+16 ,Brighton,7
+17 ,Norwich,7
+18 ,Aston Villa,7
+19 ,Newcastle,7
+20 ,Watford,7
+1 ,Liverpool,8
+2 ,Man City,8
+3 ,Arsenal,8
+4 ,Leicester,8
+5 ,Chelsea,8
+6 ,Crystal Palace,8
+7 ,Burnley,8
+8 ,West Ham,8
+9 ,Spurs,8
+10 ,AFC Bournemouth,8
+11 ,Wolves,8
+12 ,Man Utd,8
+13 ,Sheffield Utd,8
+14 ,Brighton,8
+15 ,Aston Villa,8
+16 ,Newcastle,8
+17 ,Southampton,8
+18 ,Everton,8
+19 ,Norwich,8
+20 ,Watford,8
+1 ,Liverpool,9
+2 ,Man City,9
+3 ,Leicester,9
+4 ,Chelsea,9
+5 ,Arsenal,9
+6 ,Crystal Palace,9
+7 ,Spurs,9
+8 ,Burnley,9
+9 ,Sheffield Utd,9
+10 ,AFC Bournemouth,9
+11 ,West Ham,9
+12 ,Aston Villa,9
+13 ,Wolves,9
+14 ,Man Utd,9
+15 ,Everton,9
+16 ,Brighton,9
+17 ,Southampton,9
+18 ,Newcastle,9
+19 ,Norwich,9
+20 ,Watford,9
+1 ,Liverpool,10
+2 ,Man City,10
+3 ,Leicester,10
+4 ,Chelsea,10
+5 ,Arsenal,10
+6 ,Crystal Palace,10
+7 ,Man Utd,10
+8 ,Sheffield Utd,10
+9 ,AFC Bournemouth,10
+10 ,West Ham,10
+11 ,Spurs,10
+12 ,Wolves,10
+13 ,Burnley,10
+14 ,Brighton,10
+15 ,Aston Villa,10
+16 ,Everton,10
+17 ,Newcastle,10
+18 ,Southampton,10
+19 ,Norwich,10
+20 ,Watford,10
+1 ,Liverpool,11
+2 ,Man City,11
+3 ,Leicester,11
+4 ,Chelsea,11
+5 ,Arsenal,11
+6 ,Sheffield Utd,11
+7 ,AFC Bournemouth,11
+8 ,Brighton,11
+9 ,Crystal Palace,11
+10 ,Man Utd,11
+11 ,Spurs,11
+12 ,Wolves,11
+13 ,West Ham,11
+14 ,Burnley,11
+15 ,Newcastle,11
+16 ,Aston Villa,11
+17 ,Everton,11
+18 ,Southampton,11
+19 ,Norwich,11
+20 ,Watford,11
+1 ,Liverpool,12
+2 ,Leicester,12
+3 ,Chelsea,12
+4 ,Man City,12
+5 ,Sheffield Utd,12
+6 ,Arsenal,12
+7 ,Man Utd,12
+8 ,Wolves,12
+9 ,AFC Bournemouth,12
+10 ,Burnley,12
+11 ,Brighton,12
+12 ,Crystal Palace,12
+13 ,Newcastle,12
+14 ,Spurs,12
+15 ,Everton,12
+16 ,West Ham,12
+17 ,Aston Villa,12
+18 ,Watford,12
+19 ,Southampton,12
+20 ,Norwich,12
+1 ,Liverpool,13
+2 ,Leicester,13
+3 ,Man City,13
+4 ,Chelsea,13
+5 ,Wolves,13
+6 ,Sheffield Utd,13
+7 ,Burnley,13
+8 ,Arsenal,13
+9 ,Man Utd,13
+10 ,Spurs,13
+11 ,AFC Bournemouth,13
+12 ,Brighton,13
+13 ,Crystal Palace,13
+14 ,Newcastle,13
+15 ,Aston Villa,13
+16 ,Everton,13
+17 ,West Ham,13
+18 ,Norwich,13
+19 ,Southampton,13
+20 ,Watford,13
+1 ,Liverpool,14
+2 ,Leicester,14
+3 ,Man City,14
+4 ,Chelsea,14
+5 ,Spurs,14
+6 ,Wolves,14
+7 ,Sheffield Utd,14
+8 ,Arsenal,14
+9 ,Man Utd,14
+10 ,Burnley,14
+11 ,Crystal Palace,14
+12 ,AFC Bournemouth,14
+13 ,West Ham,14
+14 ,Newcastle,14
+15 ,Aston Villa,14
+16 ,Brighton,14
+17 ,Everton,14
+18 ,Southampton,14
+19 ,Norwich,14
+20 ,Watford,14
+1 ,Liverpool,15
+2 ,Leicester,15
+3 ,Man City,15
+4 ,Chelsea,15
+5 ,Wolves,15
+6 ,Man Utd,15
+7 ,Crystal Palace,15
+8 ,Spurs,15
+9 ,Sheffield Utd,15
+10 ,Arsenal,15
+11 ,Newcastle,15
+12 ,Burnley,15
+13 ,Brighton,15
+14 ,AFC Bournemouth,15
+15 ,West Ham,15
+16 ,Aston Villa,15
+17 ,Southampton,15
+18 ,Everton,15
+19 ,Norwich,15
+20 ,Watford,15
+1 ,Liverpool,16
+2 ,Leicester,16
+3 ,Man City,16
+4 ,Chelsea,16
+5 ,Man Utd,16
+6 ,Wolves,16
+7 ,Spurs,16
+8 ,Sheffield Utd,16
+9 ,Arsenal,16
+10 ,Crystal Palace,16
+11 ,Newcastle,16
+12 ,Brighton,16
+13 ,Burnley,16
+14 ,Everton,16
+15 ,AFC Bournemouth,16
+16 ,West Ham,16
+17 ,Aston Villa,16
+18 ,Southampton,16
+19 ,Norwich,16
+20 ,Watford,16
+1 ,Liverpool,17
+2 ,Leicester,17
+3 ,Man City,17
+4 ,Chelsea,17
+5 ,Spurs,17
+6 ,Man Utd,17
+7 ,Sheffield Utd,17
+8 ,Wolves,17
+9 ,Crystal Palace,17
+10 ,Arsenal,17
+11 ,Newcastle,17
+12 ,Burnley,17
+13 ,Brighton,17
+14 ,AFC Bournemouth,17
+15 ,West Ham,17
+16 ,Everton,17
+17 ,Aston Villa,17
+18 ,Southampton,17
+19 ,Norwich,17
+20 ,Watford,17
+1 ,Liverpool,18
+2 ,Leicester,18
+3 ,Man City,18
+4 ,Chelsea,18
+5 ,Sheffield Utd,18
+6 ,Wolves,18
+7 ,Spurs,18
+8 ,Man Utd,18
+9 ,Newcastle,18
+10 ,Burnley,18
+11 ,Arsenal,18
+12 ,Crystal Palace,18
+13 ,Brighton,18
+14 ,AFC Bournemouth,18
+15 ,Everton,18
+16 ,West Ham,18
+17 ,Southampton,18
+18 ,Aston Villa,18
+19 ,Norwich,18
+20 ,Watford,18
+1 ,Liverpool,19
+2 ,Leicester,19
+3 ,Man City,19
+4 ,Chelsea,19
+5 ,Wolves,19
+6 ,Spurs,19
+7 ,Sheffield Utd,19
+8 ,Man Utd,19
+9 ,Crystal Palace,19
+10 ,Newcastle,19
+11 ,Arsenal,19
+12 ,Burnley,19
+13 ,Everton,19
+14 ,Southampton,19
+15 ,Brighton,19
+16 ,AFC Bournemouth,19
+17 ,West Ham,19
+18 ,Aston Villa,19
+19 ,Watford,19
+20 ,Norwich,19
+1 ,Liverpool,20
+2 ,Leicester,20
+3 ,Man City,20
+4 ,Chelsea,20
+5 ,Man Utd,20
+6 ,Spurs,20
+7 ,Wolves,20
+8 ,Sheffield Utd,20
+9 ,Crystal Palace,20
+10 ,Everton,20
+11 ,Newcastle,20
+12 ,Arsenal,20
+13 ,Burnley,20
+14 ,Brighton,20
+15 ,Southampton,20
+16 ,AFC Bournemouth,20
+17 ,West Ham,20
+18 ,Aston Villa,20
+19 ,Watford,20
+20 ,Norwich,20
+1 ,Liverpool,21
+2 ,Leicester,21
+3 ,Man City,21
+4 ,Chelsea,21
+5 ,Man Utd,21
+6 ,Spurs,21
+7 ,Wolves,21
+8 ,Sheffield Utd,21
+9 ,Crystal Palace,21
+10 ,Arsenal,21
+11 ,Everton,21
+12 ,Southampton,21
+13 ,Newcastle,21
+14 ,Brighton,21
+15 ,Burnley,21
+16 ,West Ham,21
+17 ,Aston Villa,21
+18 ,AFC Bournemouth,21
+19 ,Watford,21
+20 ,Norwich,21
+1 ,Liverpool,22
+2 ,Man City,22
+3 ,Leicester,22
+4 ,Chelsea,22
+5 ,Man Utd,22
+6 ,Sheffield Utd,22
+7 ,Wolves,22
+8 ,Spurs,22
+9 ,Crystal Palace,22
+10 ,Arsenal,22
+11 ,Everton,22
+12 ,Southampton,22
+13 ,Newcastle,22
+14 ,Brighton,22
+15 ,Burnley,22
+16 ,West Ham,22
+17 ,Watford,22
+18 ,Aston Villa,22
+19 ,AFC Bournemouth,22
+20 ,Norwich,22
+1 ,Liverpool,23
+2 ,Man City,23
+3 ,Leicester,23
+4 ,Chelsea,23
+5 ,Man Utd,23
+6 ,Wolves,23
+7 ,Sheffield Utd,23
+8 ,Spurs,23
+9 ,Crystal Palace,23
+10 ,Arsenal,23
+11 ,Everton,23
+12 ,Newcastle,23
+13 ,Southampton,23
+14 ,Burnley,23
+15 ,Brighton,23
+16 ,West Ham,23
+17 ,Watford,23
+18 ,Aston Villa,23
+19 ,AFC Bournemouth,23
+20 ,Norwich,23
+1 ,Liverpool,24
+2 ,Man City,24
+3 ,Leicester,24
+4 ,Chelsea,24
+5 ,Man Utd,24
+6 ,Spurs,24
+7 ,Wolves,24
+8 ,Sheffield Utd,24
+9 ,Southampton,24
+10 ,Arsenal,24
+11 ,Crystal Palace,24
+12 ,Everton,24
+13 ,Burnley,24
+14 ,Newcastle,24
+15 ,Brighton,24
+16 ,Aston Villa,24
+17 ,West Ham,24
+18 ,AFC Bournemouth,24
+19 ,Watford,24
+20 ,Norwich,24
+1 ,Liverpool,25
+2 ,Man City,25
+3 ,Leicester,25
+4 ,Chelsea,25
+5 ,Spurs,25
+6 ,Sheffield Utd,25
+7 ,Man Utd,25
+8 ,Wolves,25
+9 ,Everton,25
+10 ,Arsenal,25
+11 ,Burnley,25
+12 ,Newcastle,25
+13 ,Southampton,25
+14 ,Crystal Palace,25
+15 ,Brighton,25
+16 ,AFC Bournemouth,25
+17 ,Aston Villa,25
+18 ,West Ham,25
+19 ,Watford,25
+20 ,Norwich,25
+1 ,Liverpool,26
+2 ,Man City,26
+3 ,Leicester,26
+4 ,Chelsea,26
+5 ,Spurs,26
+6 ,Sheffield Utd,26
+7 ,Man Utd,26
+8 ,Wolves,26
+9 ,Everton,26
+10 ,Arsenal,26
+11 ,Burnley,26
+12 ,Southampton,26
+13 ,Newcastle,26
+14 ,Crystal Palace,26
+15 ,Brighton,26
+16 ,AFC Bournemouth,26
+17 ,Aston Villa,26
+18 ,West Ham,26
+19 ,Watford,26
+20 ,Norwich,26
+1 ,Liverpool,27
+2 ,Man City,27
+3 ,Leicester,27
+4 ,Chelsea,27
+5 ,Man Utd,27
+6 ,Spurs,27
+7 ,Sheffield Utd,27
+8 ,Wolves,27
+9 ,Arsenal,27
+10 ,Burnley,27
+11 ,Everton,27
+12 ,Southampton,27
+13 ,Crystal Palace,27
+14 ,Newcastle,27
+15 ,Brighton,27
+16 ,AFC Bournemouth,27
+17 ,Aston Villa,27
+18 ,West Ham,27
+19 ,Watford,27
+20 ,Norwich,27
+1 ,Liverpool,28
+2 ,Man City,28
+3 ,Leicester,28
+4 ,Chelsea,28
+5 ,Man Utd,28
+6 ,Wolves,28
+7 ,Spurs,28
+8 ,Sheffield Utd,28
+9 ,Burnley,28
+10 ,Arsenal,28
+11 ,Everton,28
+12 ,Crystal Palace,28
+13 ,Southampton,28
+14 ,Newcastle,28
+15 ,Brighton,28
+16 ,West Ham,28
+17 ,Watford,28
+18 ,AFC Bournemouth,28
+19 ,Aston Villa,28
+20 ,Norwich,28
+1 ,Liverpool,29
+2 ,Man City,29
+3 ,Leicester,29
+4 ,Chelsea,29
+5 ,Man Utd,29
+6 ,Wolves,29
+7 ,Sheffield Utd,29
+8 ,Spurs,29
+9 ,Arsenal,29
+10 ,Burnley,29
+11 ,Crystal Palace,29
+12 ,Everton,29
+13 ,Newcastle,29
+14 ,Southampton,29
+15 ,Brighton,29
+16 ,West Ham,29
+17 ,Watford,29
+18 ,AFC Bournemouth,29
+19 ,Aston Villa,29
+20 ,Norwich,29
+1 ,Liverpool,30
+2 ,Man City,30
+3 ,Leicester,30
+4 ,Chelsea,30
+5 ,Man Utd,30
+6 ,Wolves,30
+7 ,Sheffield Utd,30
+8 ,Spurs,30
+9 ,Crystal Palace,30
+10 ,Arsenal,30
+11 ,Burnley,30
+12 ,Everton,30
+13 ,Newcastle,30
+14 ,Southampton,30
+15 ,Brighton,30
+16 ,Watford,30
+17 ,West Ham,30
+18 ,AFC Bournemouth,30
+19 ,Aston Villa,30
+20 ,Norwich,30
+1 ,Liverpool,31
+2 ,Man City,31
+3 ,Leicester,31
+4 ,Chelsea,31
+5 ,Man Utd,31
+6 ,Wolves,31
+7 ,Spurs,31
+8 ,Sheffield Utd,31
+9 ,Arsenal,31
+10 ,Crystal Palace,31
+11 ,Burnley,31
+12 ,Everton,31
+13 ,Newcastle,31
+14 ,Southampton,31
+15 ,Brighton,31
+16 ,Watford,31
+17 ,West Ham,31
+18 ,AFC Bournemouth,31
+19 ,Aston Villa,31
+20 ,Norwich,31
