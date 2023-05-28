@@ -91,6 +91,6 @@ animate(tabla, nframes = 300, fps = 10,
         height = 800, width = 1000 )
 
 ##Save
-anim_save("premierleague.gif")
+anim_save("D:/github/football/premierleague/premierleague_22_23.gif")
 
 
