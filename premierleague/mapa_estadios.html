@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8aa32cfba9495f344501946f3d59cb72 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8aa32cfba9495f344501946f3d59cb72" ></div>
+        
+</body>
+<script>    
+    
+            var map_8aa32cfba9495f344501946f3d59cb72 = L.map(
+                "map_8aa32cfba9495f344501946f3d59cb72",
+                {
+                    center: [53.5312214, -3.0251975],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eebf38062db179f9a4e3a68bd4e54902 = L.tileLayer(
+                "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "Google", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+            var marker_c511ccc4be11be0738d1fd462b06687f = L.marker(
+                [53.4832, -2.20042],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_b379b5ae0bd5bc8214777f2480cc3476 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_c511ccc4be11be0738d1fd462b06687f.setIcon(custom_icon_b379b5ae0bd5bc8214777f2480cc3476);
+        
+    
+        var popup_215c183d5d40f8ea6f1684851504026c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_903bfb9a64b22650eae0df0db203b63a = $(`<div id="html_903bfb9a64b22650eae0df0db203b63a" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Etihad Stadium<br><b>Capacidad:</b> 55000.0<br><b>Equipo:</b> Manchester City</div>`)[0];
+                popup_215c183d5d40f8ea6f1684851504026c.setContent(html_903bfb9a64b22650eae0df0db203b63a);
+            
+        
+
+        marker_c511ccc4be11be0738d1fd462b06687f.bindPopup(popup_215c183d5d40f8ea6f1684851504026c)
+        ;
+
+        
+    
+    
+            var marker_85a500b1ab72910c42f9908cd8acfa81 = L.marker(
+                [51.5548, -0.108533],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_14fa27802ee41eb0bb93445dd7f80fce = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_85a500b1ab72910c42f9908cd8acfa81.setIcon(custom_icon_14fa27802ee41eb0bb93445dd7f80fce);
+        
+    
+        var popup_f3ab8ee11f5882d68312a99d08db99d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c1c8a4685f0c8cf6d2fb2e0a6027385 = $(`<div id="html_1c1c8a4685f0c8cf6d2fb2e0a6027385" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Emirates Stadium<br><b>Capacidad:</b> 60272.0<br><b>Equipo:</b> Arsenal</div>`)[0];
+                popup_f3ab8ee11f5882d68312a99d08db99d5.setContent(html_1c1c8a4685f0c8cf6d2fb2e0a6027385);
+            
+        
+
+        marker_85a500b1ab72910c42f9908cd8acfa81.bindPopup(popup_f3ab8ee11f5882d68312a99d08db99d5)
+        ;
+
+        
+    
+    
+            var marker_995b1d33c5b2f62d868bbdf6fc878997 = L.marker(
+                [53.4626, -2.29103],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_00a7edde0bbea05b2227e6157aeb8723 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_995b1d33c5b2f62d868bbdf6fc878997.setIcon(custom_icon_00a7edde0bbea05b2227e6157aeb8723);
+        
+    
+        var popup_c218ba2c7f76d94998b317fe6eee2c97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cba289faea73c9a65bc11270d516f97c = $(`<div id="html_cba289faea73c9a65bc11270d516f97c" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Old Trafford<br><b>Capacidad:</b> 75635.0<br><b>Equipo:</b> Manchester United</div>`)[0];
+                popup_c218ba2c7f76d94998b317fe6eee2c97.setContent(html_cba289faea73c9a65bc11270d516f97c);
+            
+        
+
+        marker_995b1d33c5b2f62d868bbdf6fc878997.bindPopup(popup_c218ba2c7f76d94998b317fe6eee2c97)
+        ;
+
+        
+    
+    
+            var marker_dc4c2c88a71c7017a1b1384447489e3f = L.marker(
+                [54.9752, -1.62235],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_1b00ad017188a40b1e1c4ab999bcbe36 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_dc4c2c88a71c7017a1b1384447489e3f.setIcon(custom_icon_1b00ad017188a40b1e1c4ab999bcbe36);
+        
+    
+        var popup_5e21e7b6d994b092b4a2dbba7eefc243 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f725ebed9e4cf4d56efcf550dc3791b = $(`<div id="html_2f725ebed9e4cf4d56efcf550dc3791b" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> St. James' Park<br><b>Capacidad:</b> 52405.0<br><b>Equipo:</b> Newcastle United</div>`)[0];
+                popup_5e21e7b6d994b092b4a2dbba7eefc243.setContent(html_2f725ebed9e4cf4d56efcf550dc3791b);
+            
+        
+
+        marker_dc4c2c88a71c7017a1b1384447489e3f.bindPopup(popup_5e21e7b6d994b092b4a2dbba7eefc243)
+        ;
+
+        
+    
+    
+            var marker_60cacd16e9bdbf2c87bbe9443919af71 = L.marker(
+                [53.4313, -2.96158],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_9b103ee45f6e1ded973f58b3e21cf2a3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_60cacd16e9bdbf2c87bbe9443919af71.setIcon(custom_icon_9b103ee45f6e1ded973f58b3e21cf2a3);
+        
+    
+        var popup_5a6393671a044be11292fa5709d71806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f697367f1969d639bb6e22d91d850e = $(`<div id="html_56f697367f1969d639bb6e22d91d850e" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Anfield<br><b>Capacidad:</b> 54074.0<br><b>Equipo:</b> Liverpool</div>`)[0];
+                popup_5a6393671a044be11292fa5709d71806.setContent(html_56f697367f1969d639bb6e22d91d850e);
+            
+        
+
+        marker_60cacd16e9bdbf2c87bbe9443919af71.bindPopup(popup_5a6393671a044be11292fa5709d71806)
+        ;
+
+        
+    
+    
+            var marker_415d9f3bec42d54eaa1e4b87d6474b59 = L.marker(
+                [50.8606, -0.082237],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_3925137bdfc2c6d3d86e49a1247e1bc9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_415d9f3bec42d54eaa1e4b87d6474b59.setIcon(custom_icon_3925137bdfc2c6d3d86e49a1247e1bc9);
+        
+    
+        var popup_9d88ca156b48307ff8e7a7fb3adafc01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0803b70806ba3279cef667e818cfa96c = $(`<div id="html_0803b70806ba3279cef667e818cfa96c" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Amex Stadium<br><b>Capacidad:</b> 30750.0<br><b>Equipo:</b> Brighton & Hove Albion</div>`)[0];
+                popup_9d88ca156b48307ff8e7a7fb3adafc01.setContent(html_0803b70806ba3279cef667e818cfa96c);
+            
+        
+
+        marker_415d9f3bec42d54eaa1e4b87d6474b59.bindPopup(popup_9d88ca156b48307ff8e7a7fb3adafc01)
+        ;
+
+        
+    
+    
+            var marker_f8418b9c508903f34b3e9389155006b5 = L.marker(
+                [52.5085, -1.88495],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_76e6856da4e911e767f00997e81b9b4e = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_f8418b9c508903f34b3e9389155006b5.setIcon(custom_icon_76e6856da4e911e767f00997e81b9b4e);
+        
+    
+        var popup_b4964bad068028eedc3cf0e4d6113f1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e99e51e02621cbf489624afa4d605a = $(`<div id="html_f6e99e51e02621cbf489624afa4d605a" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Villa Park<br><b>Capacidad:</b> 42682.0<br><b>Equipo:</b> Aston Villa</div>`)[0];
+                popup_b4964bad068028eedc3cf0e4d6113f1d.setContent(html_f6e99e51e02621cbf489624afa4d605a);
+            
+        
+
+        marker_f8418b9c508903f34b3e9389155006b5.bindPopup(popup_b4964bad068028eedc3cf0e4d6113f1d)
+        ;
+
+        
+    
+    
+            var marker_ad95233c1144b42f11012875966f3ed6 = L.marker(
+                [51.4745, -0.220993],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_11048fa953a507e552e6f0cdf4dfc33b = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_ad95233c1144b42f11012875966f3ed6.setIcon(custom_icon_11048fa953a507e552e6f0cdf4dfc33b);
+        
+    
+        var popup_807b683bf94c6dd70b7ca932f4cbd6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_255e43efd74859d5654db66e215f9620 = $(`<div id="html_255e43efd74859d5654db66e215f9620" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Craven Cottage<br><b>Capacidad:</b> 25700.0<br><b>Equipo:</b> Fulham</div>`)[0];
+                popup_807b683bf94c6dd70b7ca932f4cbd6f5.setContent(html_255e43efd74859d5654db66e215f9620);
+            
+        
+
+        marker_ad95233c1144b42f11012875966f3ed6.bindPopup(popup_807b683bf94c6dd70b7ca932f4cbd6f5)
+        ;
+
+        
+    
+    
+            var marker_616263818367fc74eec3f75e17e641d4 = L.marker(
+                [51.3979, -0.085923],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_ef38be1c408418c00aeed206194bc022 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_616263818367fc74eec3f75e17e641d4.setIcon(custom_icon_ef38be1c408418c00aeed206194bc022);
+        
+    
+        var popup_d979dbe7fb721644ae27f49adf15020d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47968a0877621aa18acddd7aa1f7b533 = $(`<div id="html_47968a0877621aa18acddd7aa1f7b533" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Selhurst Park<br><b>Capacidad:</b> 25073.0<br><b>Equipo:</b> Crystal Palace</div>`)[0];
+                popup_d979dbe7fb721644ae27f49adf15020d.setContent(html_47968a0877621aa18acddd7aa1f7b533);
+            
+        
+
+        marker_616263818367fc74eec3f75e17e641d4.bindPopup(popup_d979dbe7fb721644ae27f49adf15020d)
+        ;
+
+        
+    
+    
+            var marker_df447d1e35f76afaa37b2906324932c8 = L.marker(
+                [51.4816, -0.191016],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_6279f6d0d8c7320a4a0ebad5a8f8d2c2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_df447d1e35f76afaa37b2906324932c8.setIcon(custom_icon_6279f6d0d8c7320a4a0ebad5a8f8d2c2);
+        
+    
+        var popup_4c4240264214003f33db40469134d966 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3353851efaca962f19a148275d76b23 = $(`<div id="html_c3353851efaca962f19a148275d76b23" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Stamford Bridge<br><b>Capacidad:</b> 41798.0<br><b>Equipo:</b> Chelsea</div>`)[0];
+                popup_4c4240264214003f33db40469134d966.setContent(html_c3353851efaca962f19a148275d76b23);
+            
+        
+
+        marker_df447d1e35f76afaa37b2906324932c8.bindPopup(popup_4c4240264214003f33db40469134d966)
+        ;
+
+        
+    
+    
+            var marker_25511009f5bdb3c7c052412eee70e5e2 = L.marker(
+                [52.5904, -2.13077],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_1a47006b075caf7f46d4dd3004b89548 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_25511009f5bdb3c7c052412eee70e5e2.setIcon(custom_icon_1a47006b075caf7f46d4dd3004b89548);
+        
+    
+        var popup_089d4c595a09c002f10ad69b87114255 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a1fd440d8f5214a6bab58a9a254c11 = $(`<div id="html_e0a1fd440d8f5214a6bab58a9a254c11" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Molineux Stadium<br><b>Capacidad:</b> 31500.0<br><b>Equipo:</b> Wolverhampton Wanderers</div>`)[0];
+                popup_089d4c595a09c002f10ad69b87114255.setContent(html_e0a1fd440d8f5214a6bab58a9a254c11);
+            
+        
+
+        marker_25511009f5bdb3c7c052412eee70e5e2.bindPopup(popup_089d4c595a09c002f10ad69b87114255)
+        ;
+
+        
+    
+    
+            var marker_3a53853fd55b6b634fb7728fabaa027c = L.marker(
+                [50.7349, -1.83899],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_e4fd3fe654bdbdbb700e11ae6a306e4c = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_3a53853fd55b6b634fb7728fabaa027c.setIcon(custom_icon_e4fd3fe654bdbdbb700e11ae6a306e4c);
+        
+    
+        var popup_9b843bc4c9dc15b60e46b0eccea0951c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e77f7116b67039b390c1fa5da198860 = $(`<div id="html_6e77f7116b67039b390c1fa5da198860" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Vitality Stadium<br><b>Capacidad:</b> 11464.0<br><b>Equipo:</b> Bournemouth</div>`)[0];
+                popup_9b843bc4c9dc15b60e46b0eccea0951c.setContent(html_6e77f7116b67039b390c1fa5da198860);
+            
+        
+
+        marker_3a53853fd55b6b634fb7728fabaa027c.bindPopup(popup_9b843bc4c9dc15b60e46b0eccea0951c)
+        ;
+
+        
+    
+    
+            var marker_6ef4192f4b97520912b9439441fb4f6f = L.marker(
+                [52.9396, -1.13258],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_0d75aefc250ef247afe1305938f5dc25 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_6ef4192f4b97520912b9439441fb4f6f.setIcon(custom_icon_0d75aefc250ef247afe1305938f5dc25);
+        
+    
+        var popup_127dbf5ebce0a4e15294736ce7ba74e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_410d2b9bc62825f7ba9a168795d22b68 = $(`<div id="html_410d2b9bc62825f7ba9a168795d22b68" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> The City Ground<br><b>Capacidad:</b> 30602.0<br><b>Equipo:</b> Nottingham Forest</div>`)[0];
+                popup_127dbf5ebce0a4e15294736ce7ba74e7.setContent(html_410d2b9bc62825f7ba9a168795d22b68);
+            
+        
+
+        marker_6ef4192f4b97520912b9439441fb4f6f.bindPopup(popup_127dbf5ebce0a4e15294736ce7ba74e7)
+        ;
+
+        
+    
+    
+            var marker_a57e84d4afed416bb5c91c328aa6eda3 = L.marker(
+                [53.4387, -2.96639],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_f451acabd63639bf6d9e0f5265ddb6a2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_a57e84d4afed416bb5c91c328aa6eda3.setIcon(custom_icon_f451acabd63639bf6d9e0f5265ddb6a2);
+        
+    
+        var popup_a89dbf34911f2089b942752015705ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20d6e095087360419868260de9487678 = $(`<div id="html_20d6e095087360419868260de9487678" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Goodison Park<br><b>Capacidad:</b> 39571.0<br><b>Equipo:</b> Everton</div>`)[0];
+                popup_a89dbf34911f2089b942752015705ed3.setContent(html_20d6e095087360419868260de9487678);
+            
+        
+
+        marker_a57e84d4afed416bb5c91c328aa6eda3.bindPopup(popup_a89dbf34911f2089b942752015705ed3)
+        ;
+
+        
+    
+    
+            var marker_e0984f794cd4e0c8d0d75f5da9148aa7 = L.marker(
+                [52.62, -1.1415],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_3693550fcdf7696d022ff30d7b08a379 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_e0984f794cd4e0c8d0d75f5da9148aa7.setIcon(custom_icon_3693550fcdf7696d022ff30d7b08a379);
+        
+    
+        var popup_3e595ffc403abfb9feb8bfbacfe29442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c8fca592216780a314db887fd49fe8 = $(`<div id="html_a5c8fca592216780a314db887fd49fe8" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> King Power Stadium<br><b>Capacidad:</b> 32312.0<br><b>Equipo:</b> Leicester City</div>`)[0];
+                popup_3e595ffc403abfb9feb8bfbacfe29442.setContent(html_a5c8fca592216780a314db887fd49fe8);
+            
+        
+
+        marker_e0984f794cd4e0c8d0d75f5da9148aa7.bindPopup(popup_3e595ffc403abfb9feb8bfbacfe29442)
+        ;
+
+        
+    
+    
+            var marker_8f1c6229b7719989536d26bbef0e9e3a = L.marker(
+                [53.7772, -1.57153],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_a93667474c1daf35936d5ab13faa48d8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_8f1c6229b7719989536d26bbef0e9e3a.setIcon(custom_icon_a93667474c1daf35936d5ab13faa48d8);
+        
+    
+        var popup_bdce0c0699b7badfbb13945fc81b9c02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab845d8b84d759d6e3a3503634632332 = $(`<div id="html_ab845d8b84d759d6e3a3503634632332" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> Elland Road<br><b>Capacidad:</b> 40000.0<br><b>Equipo:</b> Leeds United</div>`)[0];
+                popup_bdce0c0699b7badfbb13945fc81b9c02.setContent(html_ab845d8b84d759d6e3a3503634632332);
+            
+        
+
+        marker_8f1c6229b7719989536d26bbef0e9e3a.bindPopup(popup_bdce0c0699b7badfbb13945fc81b9c02)
+        ;
+
+        
+    
+    
+            var marker_b6819991d2dd5004a1ab71b5114d2b28 = L.marker(
+                [50.9065, -1.39082],
+                {}
+            ).addTo(map_8aa32cfba9495f344501946f3d59cb72);
+        
+    
+        var custom_icon_89138f477d3b7f224987d4e168f7844f = L.icon({"iconSize": [40, 40], "iconUrl": "https://cutewallpaper.org/24/stadium-png/stadium-png-amp-svg-transparent-background-to-download.png"});
+        marker_b6819991d2dd5004a1ab71b5114d2b28.setIcon(custom_icon_89138f477d3b7f224987d4e168f7844f);
+        
+    
+        var popup_688fb82391a4887defcd0dc29251f05d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15e556edfd4f76405c6284cb405cbca5 = $(`<div id="html_15e556edfd4f76405c6284cb405cbca5" style="width: 100.0%; height: 100.0%;"><b>Estadio:</b> St. Mary's Stadium<br><b>Capacidad:</b> 32505.0<br><b>Equipo:</b> Southampton</div>`)[0];
+                popup_688fb82391a4887defcd0dc29251f05d.setContent(html_15e556edfd4f76405c6284cb405cbca5);
+            
+        
+
+        marker_b6819991d2dd5004a1ab71b5114d2b28.bindPopup(popup_688fb82391a4887defcd0dc29251f05d)
+        ;
+
+        
+    
+</script>
